@@ -46,6 +46,7 @@ require.config({
     'bootstrap-tagsinput':    'vendor/tagsinput/bootstrap-tagsinput',
     'aws-sdk':                'vendor/aws-sdk/dist/aws-sdk.min',
   },
+  waitSeconds : 0,
   shim: {
 
     spectrum: {

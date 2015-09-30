@@ -15,6 +15,7 @@ module.exports = function(config) {
     },
     cssLight: {
       src: [
+        '<%= genDir %>/css/opensans.min.css',
         '<%= genDir %>/vendor/css/normalize.min.css',
         '<%= genDir %>/vendor/css/timepicker.css',
         '<%= genDir %>/vendor/css/spectrum.css',
