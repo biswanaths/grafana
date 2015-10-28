@@ -4,12 +4,14 @@ module.exports = function(config) {
   return {
     cssDark: {
       src: [
-        '<%= genDir %>/vendor/css/normalize.min.css',
+/*        '<%= genDir %>/vendor/css/normalize.min.css',
         '<%= genDir %>/vendor/css/timepicker.css',
         '<%= genDir %>/vendor/css/spectrum.css',
         '<%= genDir %>/css/bootstrap.dark.min.css',
         '<%= genDir %>/css/bootstrap-responsive.min.css',
         '<%= genDir %>/vendor/css/font-awesome.min.css'
+*/
+        '<%= genDir %>/css/custom.min.css'
       ],
       dest: '<%= genDir %>/css/grafana.dark.min.css'
     },
